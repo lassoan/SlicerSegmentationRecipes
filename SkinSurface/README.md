@@ -9,31 +9,48 @@ Usually there is strong contrast between tissue and air, therefore segmenting th
 Recommended workflow
 --------------------
 
-0. Use `Flood filling` effect (provided by `SegmentEditorExtraEffects` extension) to segment outside air. Click anywhere in the outside air in slice views to segment the air. If not all areas are hightlighted then click in air regions that are not included and/or increase `Intensity tolerance` parameter. If segment leaks inside the tissue then click `Undo` and increase `Neighborhood size`.
-0. Use `Logical operators` effect / `Invert` operation to make the segment contain tissue instead of air
-0. Use `Scissors` effect and `Smoothing` effect to remove artifacts and noise
+- Use `Flood filling` effect (provided by `SegmentEditorExtraEffects` extension) to segment outside air. Click anywhere in the outside air in slice views to segment the air. If not all areas are hightlighted then click in air regions that are not included and/or increase `Intensity tolerance` parameter. If segment leaks inside the tissue then click `Undo` and increase `Neighborhood size`.
+- Use `Logical operators` effect / `Invert` operation to make the segment contain tissue instead of air
+- Use `Scissors` effect and `Smoothing` effect to remove artifacts and noise
 
 Example
 -------
 
-0. Download `MRBrainTumor1` sample data set
+- Download `MRBrainTumor1` sample data set
 
-image:: image-001.png
-  :scale: 50 %
+![MRBrainTumor1](image-001.png)
 
-0. Go to `Segment editor` module, create a new segment
-0. Select `Flood filling` effect
-0. Click anywhere in a slice view in air region (outside tissues)
+- Go to `Segment editor` module, create a new segment
+- Select `Flood filling` effect
+- Click anywhere in a slice view in air region (outside tissues) => Not all the air region is included in the segment
 
-Not all the air region is included in the segment.
+![Air region undersegmented.](image-002.png)
 
-0. Increase `Intensity tolerance` parameter to `20`. Click in air region in a slice view.
+- Increase `Intensity tolerance` parameter to `20`. Click in air region in a slice view. => Segment leaked inside the tissue.
 
-Segment leaked inside the tissue.
+![Air region oversegmented.](image-003.png)
 
-0. Click `Undo` to undo the last flood filling operation.
-0. Increase `Neighborhood size` to `3.0` to prevent leaking inside tissue. Click in air region in a slice view.
-0. Select `Logical operators` effect, operation `Invert`, and click `Apply`. Click `Show 3D` to see segmentation result in 3D viewer.
-0. Select `Scissors` effect and outline areas in the 3D view that were incorrectly included in the segment (due to image artifacts)
-0. Select `Islands` effect, `Keep largest island` method, click `Apply` to small speckles.
-0. Select `Smoothing` effect, `Median` smoothing method, click `Apply` to reduce small random noise on the surface boundary.
+- Click `Undo` to undo the last flood filling operation.
+- Increase `Neighborhood size` to `3.0` to prevent leaking inside tissue. Click in air region in a slice view.
+
+![No leaks anymore.](image-004.png)
+
+- Select `Logical operators` effect, operation `Invert`, and click `Apply`. Click `Show 3D` to see segmentation result in 3D viewer.
+
+![Inverted air segment is tissue segment.](image-005.png)
+
+- Select `Scissors` effect and outline areas in the 3D view that were incorrectly included in the segment (due to image artifacts)
+
+![Artifacts removed.](image-006.png)
+
+- Select `Islands` effect, `Keep largest island` method, click `Apply` to small speckles.
+
+![Speckles removed.](image-007.png)
+
+- Select `Smoothing` effect, `Median` smoothing method, click `Apply` to reduce small random noise on the surface boundary.
+
+![Smoothed result.](image-008.png)
+
+Final result:
+
+![Smoothed result.](image-009.gif)
