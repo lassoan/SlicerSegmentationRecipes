@@ -2,6 +2,7 @@
 Recipes for solving common segmentation tasks using 3D Slicer
 
 - [Skin surface extraction](SkinSurface/README.md)
+- [Craniotomy (splitting segments)](Craniotomy/README.md)
 
 External links:
 - Whole heart segmentation from CTA:
