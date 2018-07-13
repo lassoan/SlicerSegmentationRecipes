@@ -15,11 +15,8 @@ Recommended workflow
 
 - Create a new segment that will contain the parts separated from the existing segment
 - Click `Show 3D` button to see the segment in 3D
-- Select `Scissors` effect
-- 
- (provided by `SegmentEditorExtraEffects` extension) to segment outside air. Click anywhere in the outside air in slice views to segment the air. If not all areas are hightlighted then click in air regions that are not included and/or increase `Intensity tolerance` parameter. If segment leaks inside the tissue then click `Undo` and increase `Neighborhood size`.
-- Use `Logical operators` effect / `Invert` operation to make the segment contain tissue instead of air
-- Use `Scissors` effect and `Smoothing` effect to remove artifacts and noise
+- Use `Scissors` effect with `Fill inside` option to cut a hole
+- Rotate view, select original segment, and use `Scissors` effect again to add back regions to the original segment that should not have been cut out (e.g., other side of the skull)
 
 Example
 -------
@@ -39,7 +36,6 @@ Example
 ![Skull visible in 3D viewer.](image-003.png)
 
 - Click `Add` button to create a new segment, which will store the part that is separated from the skull
-
 - Select `Scissors` effect
 - Set `Operation` to `Fill inside`, as we will use scissors to fill new empty segment
 - Scroll down to `Masking` section and change `Editable area` to `Inside all segments` so that we do not add any new regions to segments, just allow editing within existing segments
