@@ -48,7 +48,7 @@ Example
 
 ![Disable surface smoothing for fast updates in 3D view.](image-003.png)
 
-![Preview segmentation result in 3D.](image-003.png)
+![Preview segmentation result in 3D.](image-004.png)
 
 - Click `Apply` when segmentation preview is satisfactory.
 - Apply `Smoothing` effect, `Median` method to fill in missed voxels and smooth outer surface of the vessel.
