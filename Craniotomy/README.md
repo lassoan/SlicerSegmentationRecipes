@@ -1,8 +1,8 @@
 Overview
 --------
 
-Task: Cut a hole on the skull to simulate a craniotomy. The same method can be used anytime a segment has to be partitioned to multiple segments.
-Imaging modality: any
+- Task: Cut a hole on the skull to simulate a craniotomy. The same method can be used anytime a segment has to be partitioned to multiple segments.
+- Imaging modality: any
 
 
 Prerequisites

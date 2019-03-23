@@ -1,8 +1,8 @@
 Overview
 --------
 
-Task: Extract skin surface without holes inside the segment. Important for 3D printing or surface-based registration.
-Imaging modality: CT, MRI
+- Task: Extract skin surface without holes inside the segment. Important for 3D printing or surface-based registration.
+- Imaging modality: CT, MRI
 
 Usually there is strong contrast between tissue and air, therefore segmenting the skin surface should be easy, except there may be air inside body part or some tissues or fluids may have image intensity similar to air. Therefore, simple global thresholding may not always work.
 
