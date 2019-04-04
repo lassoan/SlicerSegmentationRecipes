@@ -5,6 +5,7 @@ Recipes for solving common segmentation tasks using 3D Slicer
 - [Craniotomy (splitting segments)](Craniotomy/README.md)
 - [Aorta segmentation (fast, using Fast marching)](AortaFastMarching/README.md)
 - [Aorta segmentation (high-accuracy, using Grow from seeds)](AortaMaskedGrowFromSeeds/README.md)
+- [Segmentation on arbitrarily oriented slices](ObliqueSliceSegmentation/README.md)
 
 External links:
 - Whole heart segmentation from CTA:

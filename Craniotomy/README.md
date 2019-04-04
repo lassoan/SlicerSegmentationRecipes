@@ -8,7 +8,7 @@ Overview
 Prerequisites
 -------------
 
-Have a segment that need to cut/partitioned into multiple pieces
+Have a segment that need to be cut/partitioned into multiple pieces.
 
 Recommended workflow
 --------------------
