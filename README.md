@@ -7,6 +7,7 @@ Recipes for solving common segmentation tasks using 3D Slicer
 - [Aorta segmentation (high-accuracy, using Grow from seeds)](AortaMaskedGrowFromSeeds/README.md)
 - [Cerebral vessel segmentation by subtraction](VesselSegmentationBySubtraction/README.md)
 - [Segmentation on arbitrarily oriented slices](ObliqueSliceSegmentation/README.md)
+- [Skull stripping (keep brain region and remove skull bone and soft tissues) on CT](SlicerSegmentationRecipes/README.md)
 
 External links:
 - Whole heart segmentation from CTA:
