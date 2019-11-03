@@ -1,5 +1,6 @@
-# SlicerSegmentationRecipes
-Recipes for solving common segmentation tasks using 3D Slicer
+# Segmentation recipes for 3D Slicer
+
+Recipes for solving common image segmentation tasks using [3D Slicer](https://www.slicer.org).
 
 - [Skin surface extraction](SkinSurface/README.md)
 - [Craniotomy (splitting segments)](Craniotomy/README.md)
