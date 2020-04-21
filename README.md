@@ -1,8 +1,7 @@
 # Segmentation recipes for 3D Slicer
 
 Recipes for solving common image segmentation tasks using [3D Slicer](https://www.slicer.org).
-
-- [Skin surface extraction](SkinSurface/README.md)
+- [Skin surface extraction](SkinSurface2/README.md)
 - [Craniotomy (splitting segments)](Craniotomy/README.md)
 - [Aorta segmentation (fast, using Fast marching)](AortaFastMarching/README.md)
 - [Aorta segmentation (high-accuracy, using Grow from seeds)](AortaMaskedGrowFromSeeds/README.md)
@@ -19,3 +18,6 @@ External links:
 - Femur and pelvis segmentation from CT:
   - [Video tutorial](https://www.slicer.org/wiki/Documentation/Nightly/Training#Slicer4_Image_Segmentation)
 - [Kitware's 3D Slicer segmentation tutorial slides](https://data.kitware.com/#item/5b0f9a308d777f15ebe1fc26)
+
+Obsolete recipes (we have better tools now)
+- [Skin surface extraction using region growing](SkinSurface/README.md)
