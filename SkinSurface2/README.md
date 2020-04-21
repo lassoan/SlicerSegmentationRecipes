@@ -11,9 +11,9 @@ This recipe replaces an [earlier recipe that used `Flood filling` effect](../Ski
 Recommended workflow
 --------------------
 
-- Use `Wrap solidify` effect (provided by `SegmentEditorExtraEffects` extension) with to segment outside air. Click anywhere in the outside air in slice views to segment the air. If not all areas are hightlighted then click in air regions that are not included and/or increase `Intensity tolerance` parameter. If segment leaks inside the tissue then click `Undo` and increase `Neighborhood size`.
-- Use `Logical operators` effect / `Invert` operation to make the segment contain tissue instead of air
-- Use `Scissors` effect and `Smoothing` effect to remove artifacts and noise
+- Use `Threshold` and effect to create a segment that contains the head (skin and internal structures)
+- Use `Islands` effect's `Keep largest island` method to remove noise speckles
+- Use `Wrap solidify` effect (provided by `SurfaceWrapSolidify` extension) to fill holes inside the segment.
 
 Example
 -------
