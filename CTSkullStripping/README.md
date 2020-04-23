@@ -8,7 +8,7 @@ Overview
 Prerequisites
 -------------
 
-- SegmentEditorExtraEffects extension is installed.
+- SegmentEditorExtraEffects and SurfaceWrapSolidify extensions are installed.
 - Head CT image is loaded.
 
 Recommended workflow
