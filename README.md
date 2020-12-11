@@ -17,6 +17,7 @@ External links:
   - [Video tutorial and slides: Spine segmentation from CT and combining with 3D models](https://www.slicer.org/wiki/Documentation/Nightly/Training#Slicer4_Image_Segmentation)
 - Femur and pelvis segmentation from CT:
   - [Video tutorial](https://www.slicer.org/wiki/Documentation/Nightly/Training#Slicer4_Image_Segmentation)
+- [Segmentation video tutorials from CHU de Rouen (France)](https://www.youtube.com/channel/UC8vxI0-dEWrw0_tBF-v8xGA/videos): many step-by-step segmentation tutorials, including liver, wrist bones, lungs, kidneys, hip, and various animals.
 - [Kitware's 3D Slicer segmentation tutorial slides](https://data.kitware.com/#item/5b0f9a308d777f15ebe1fc26)
 
 Obsolete recipes (we have better tools now)
