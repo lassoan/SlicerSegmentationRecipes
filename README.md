@@ -3,6 +3,7 @@
 Recipes for solving common image segmentation tasks using [3D Slicer](https://www.slicer.org).
 - [Skin surface extraction](SkinSurface2/README.md)
 - [Craniotomy (splitting segments)](Craniotomy/README.md)
+- [Merge segments](MergeSegments/README.md)
 - [Aorta segmentation (fast, using Fast marching)](AortaFastMarching/README.md)
 - [Aorta segmentation (high-accuracy, using Grow from seeds)](AortaMaskedGrowFromSeeds/README.md)
 - [Cerebral vessel segmentation by subtraction](VesselSegmentationBySubtraction/README.md)
