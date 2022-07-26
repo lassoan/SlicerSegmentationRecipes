@@ -28,7 +28,9 @@ Tips:
 Example
 -------
 
-- Load [CTABrainBaseline](http://slicer.kitware.com/midas3/download/item/453299/CTABrainBaseline.nrrd) and [CTABrainContrast.nrrd](http://slicer.kitware.com/midas3/download/item/453309/CTABrainContrast.nrrd) volumes. Significant patient motion is visible. To minimize artifacts, we need to align the images before subtraction.
+- Load `CTABrainBaseline` and `CTABrainContrast` volumes (get the images using the links below). Significant patient motion is visible. To minimize artifacts, we need to align the images before subtraction.
+  - CTABrainBaseline: download from [here](https://github.com/Slicer/SlicerDataStore/releases/download/SHA256/dd3922fb4babe47c49d57674936aac93342296ee3551d2af5b2a9a3b7af916b1) and rename the file to `CTABrainBaseline.nrrd`
+  - CTABrainContrast: download from [here](https://github.com/Slicer/SlicerDataStore/releases/download/SHA256/7b8fccab033eac291a4b237b4f99248f337ac6be0c4c8bf87d4f4d75f66214d3) and rename the file to `CTABrainContrast.nrrd`
 
 ![Fading between baseline and contrast images. Significant patient motion is visible.](image-001.gif)
 
